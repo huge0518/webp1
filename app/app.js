@@ -1,6 +1,8 @@
 //加载app.less
 require('../less/app.less');
 
+let img = require("../img/search.png")
+console.log("img==>",img)
 
 window.onload = function () {
 
@@ -15,5 +17,16 @@ window.onload = function () {
     })
   
     document.body.appendChild(ul);
+
+
+    //创建图片对象
+    let image = new Image()
+
+      image.src = img;
+   
+   
+  
+    document.getElementById('icon').appendChild(image);
+  
   
   }
