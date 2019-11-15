@@ -75,6 +75,14 @@ module.exports ={
             }
           }
         ]
+      },
+
+      //处理html模板中的图片
+      {
+        test:/\.html?$/,
+        use:[
+          {loader:'html-withimg-loader'}
+        ]
       }
     ]
   },

@@ -29,3 +29,6 @@
 
 ### 处理模板html
 > npm i html-webpack-plugin -D
+
+### 处理html模板中的图片
+> npm i html-withimg-loader -D
