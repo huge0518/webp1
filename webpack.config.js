@@ -42,7 +42,6 @@ module.exports ={
         test: /\.css$/,
         use: [
           // {loader: 'style-loader'},
-
           //分离css
           {loader: miniCssExtractPlugin.loader},
           {loader: 'css-loader'}
@@ -54,7 +53,6 @@ module.exports ={
         test: /\.less$/,
         use: [
           // {loader: 'style-loader'},
-
           //分离css
           {loader: miniCssExtractPlugin.loader},
           {loader: 'css-loader'},
